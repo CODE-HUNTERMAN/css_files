@@ -1,0 +1,32 @@
+/* universal selector */
+
+/* *{
+    background-color: #E52B50;
+    color: chartreuse;
+} */
+
+/* Group selector */
+
+/* h1,h2,h3{
+    background-color: blue;
+} */
+
+/* select by attribute */
+
+/* h2[draggable="true"]{
+    background-color: blueviolet;
+} */
+
+/* select by descendent */
+
+/* section p{
+    background-color: blueviolet;
+} */
+
+/* select by child */
+
+/* section > p{
+    background-color: blueviolet;
+} */
+
+

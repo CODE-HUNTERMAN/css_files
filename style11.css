@@ -1,0 +1,47 @@
+.container{
+    background-color: pink;
+    margin-left: 200px ;
+    margin-top: 150px;
+    position: relative;
+    height: 1000px;
+}
+/* top bottom left right */
+/* relative */
+/* static */
+/* absolute */
+/* fixed */
+/* sticky */
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.box1{
+    background-color: red;
+    /* position: sticky;
+    top: 20px;
+    left: 30px; */
+}
+
+.box2{
+    background-color: blue;
+    /* position: relative; */
+
+    /* position: fixed; */   /* coder army ki website ka header */
+    /* top: 10px; */
+}
+.box3{
+    background-color: rgb(51, 240, 51);
+    /* position:absolute;
+    top: 10px; */
+}
+
+.box4{
+    background-color:yellow;
+}
+
+.newcontainer{
+    height: 800px;
+    background-color: brown;
+}

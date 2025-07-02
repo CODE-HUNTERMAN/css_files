@@ -1,0 +1,49 @@
+/* CHILD PROPERTY */
+/* 
+div > p {
+    color: red;
+}
+  */
+
+  /* name ke sath  */
+/* h1{
+    color: rgb(10, 10,1000);
+    background-color:pink ;
+} */
+
+/* Font Change */
+/* Font Size Change */
+ /* Pixel size is determined by your device size */
+ /* em, relayed to parent font size */
+ /* rem, related to html font size  */
+ /* % , related to parent font size */
+ 
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+} */
+
+/* body{
+    background-color: blanchedalmond;
+    background-image: url(../01HTML/MEDIA/4546.webp);
+    background-size:cover;
+} */
+/* a = alpha (transparent to opaque)
+
+h1{
+    color: rgba(10, 10,1000,0.1);
+} */
+
+
+/* Change by rgb */
+/* 0-255 */
+/* Hexadecimal ko use karna */
+/* # tag use, 6 character(0-f) */
+
+/* h3{
+    color: #43a88a;
+}
+
+p{
+    color: hsl(278, 67%, 47%);
+} */

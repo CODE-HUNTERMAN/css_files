@@ -1,0 +1,14 @@
+
+.container{
+    height: 200px;
+    width: 400px;
+    background-color: aquamarine;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+  /*  overflow: auto; */
+}
+
+/* by default overflow is visible */
+/*  hidden */
+/* scroll */
+/*  auto */

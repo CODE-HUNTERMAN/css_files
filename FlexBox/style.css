@@ -1,0 +1,88 @@
+.container{
+    background-color: aquamarine;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline ;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    margin: 5px;
+}
+
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: blue;
+}
+
+.box3{
+    background-color: rgb(82, 242, 82);
+}
+
+.box4{
+    background-color: yellow;
+}
+
+/* flex direction will identify my main axis */
+/* row: horizontal is main axis */
+/* column: vertical is main axis */
+/* justify content will be around the main axis */
+/* align item work around cross axis */
+/* align-items:stretch height ke bina karna hota h tabhi stretch honge */
+/* baseline se items ek line me align ho jate h */
+
+
+/* Main Axis: The primary axis along which flex items are placed
+(horizontal by default).
+Cross Axis: The perpendicular axis to the main axis (vertical by
+default). */
+
+/* flex-direction */
+
+/* row: Default; items align horizontally from left to right.
+row-reverse: Items align horizontally from right to left.
+column: Items align vertically from top to bottom.
+column-reverse: Items align vertically from bottom to top */
+
+/* justify-content */
+
+/* flex-start: Items align to the start of the container.
+flex-end: Items align to the end of the container.
+center: Items are centered along the main axis.
+space-between: Items are spaced with equal space
+between, but no space at the edges.
+space-around: Items are spaced with equal space around
+them.
+space-evenly: Items have equal space between and around
+them. */
+
+/*  align-items */
+
+/* flex-start: Aligns items to the start of the cross axis.
+flex-end: Aligns items to the end of the cross axis.
+center: Centers items along the cross axis.
+stretch: Stretches items to fill the container along the cross
+axis (default).
+baseline: Aligns items based on their text baseline. */
+
+/* flex-wrap */
+
+/* nowrap: All items stay on a single line (default).
+wrap: Items wrap onto multiple lines from top to bottom.
+wrap-reverse: Items wrap onto multiple lines from bottom to
+top.
+ */
+
+/* align-content */
+
+/* The align-content property in flexbox is essential for
+managing how multiple rows of items are aligned within a flex
+container, especially when there is extra space on the cross-axis.
+flex-start, flex-end, center, space-between,
+space-around, space-evenly. */

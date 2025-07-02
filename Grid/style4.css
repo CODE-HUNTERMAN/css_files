@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;  
+}
+
+.container{
+    height: 100%;
+    gap: 1rem;
+    background-color:darkgray;
+    padding: 4rem;
+    display: grid;
+    justify-content: center;
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: minmax(100px,200px) minmax(100px,200px) minmax(100px,200px) minmax(100px,200px); */
+    /* grid-template-columns: repeat(auto-fit,minmax(100px,200px)); */
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:repeat(4,1fr);
+    /* justify-items: center;
+    align-items:center; */
+    place-items: center end;
+    /* place-items: align-items justify content */
+}   
+
+/* auto-fill auto-fit */
+
+.box{
+    height: 100px;
+    width: 100px;
+    background: rgb(237, 32, 32);
+    /* font-size: 4rem; */
+   
+}
+
+/* individual box ko bhi move kar sakte hai */
+
+.box2{
+    justify-self: start;
+    align-self: flex-start;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;   
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: palegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    font-size: 4rem;
+    border:5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: linear;
+}
+
+/* .box:hover{
+     transform: translate(200px,-300px); 
+} */
+
+/* single translate: X axis */
+/* double value in translate: Xaxis, Yaxis */
+/* X-axis:positive: right,else left */
+/* Y-axis:positive: bottom,else top */
+
+/* .box:hover{
+    transform: scale(1,3);
+} */
+
+/* scale single value, it will scale by x */
+/* scale 2 values x and y, it will increase width by x times and height by y times*/
+
+/* .box:hover{
+    transform: rotate(360deg);
+} */
+
+/* rotate the boc, positive value clockwise,else anticlockwise */
+
+/* .box:hover{
+    transform: skew(60deg);
+}  */
+
+/* skew se hum kisi bhi cheez ko tilt kar sakte hai */
+/* 
+.box:hover{
+    transform: translate(100px,100px) rotate(360deg) scale(2);
+}  */
+
+/* .box:hover{
+    transform: rotate(360deg);
+    transform-origin: bottom right;
+}  */
+
+
