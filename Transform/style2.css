@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;   
+}
+
+.container{
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem ;
+    background-color: white;
+}
+
+.box{
+    background-color: blue;
+    font-size: 2rem;
+    border: 5px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+.Box1:hover{
+    transform: rotatex(45deg );
+}
